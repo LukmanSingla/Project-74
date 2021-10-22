@@ -94,7 +94,7 @@ export default class ReadStoryScreen extends React.Component {
                     <Text>  Title: {item.title}</Text>
                     <Text>  Author : {item.author}</Text>
                   </View>
-                )}
+                }}
                 keyExtractor={(item, index) => index.toString()}
                 /> 
           
